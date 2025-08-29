@@ -1,11 +1,122 @@
 @media only screen and (max-width:480.5px)
-{}
+{
+    .header-mid 
+    {
+        flex-direction: column;
+    }
+    .btn-div 
+    {
+        position: fixed;
+        bottom: 0px;
+        left:0px;
+        width:100%;
+        background-color:rgba(0, 0, 0, 0.521);
+        padding: 10px;
+        gap: 0px;
+    }
+    @keyframes btn 
+    {
+        0%
+        {
+            transform: scaleY(1);
+        }
+        25% 
+        {
+            transform: scaleY(1.1);
+        }
+        50%
+        {
+            transform:scaleY(1.2);
+        }
+        100% 
+        {
+            transform: scale(1,1);
+        }
+    }
+    .btn-div button:nth-child(1)
+    {
+        width:50%;
+        border-radius: 0px;
+        margin: 0px 5px;
+        animation: btn 1s 0s infinite linear ;
+        justify-content: center;
+    }
+    .btn-div button:nth-child(2)
+    {
+        width: 50%;
+        border-radius: 0px;
+        margin: 0px 5px;
+        animation: btn 1s 0s infinite linear ;
+        justify-content: center;
+    }
+}
 @media only screen and (min-width:481px) and (max-width:767.5px)
-{}
+{
+    .header-mid 
+    {
+        flex-direction: column;
+    }
+    .btn-div 
+    {
+        position: fixed;
+        bottom: 0px;
+        left:0px;
+        width:100%;
+        background-color:rgba(0, 0, 0, 0.603);
+        padding: 10px;
+        gap: 0px;
+        justify-content: space-between;
+    }
+    @keyframes btn 
+    {
+        0%
+        {
+            transform: scaleY(1,1);
+        }
+        25% 
+        {
+            transform: scaleY(1.1);
+        }
+        50%
+        {
+            transform:scaleY(1.2);
+        }
+        100% 
+        {
+            transform: scale(1,1);
+        }
+    }
+    .btn-div button:nth-child(1)
+    {
+        width:50%;
+        border-radius: 0px;
+        margin: 0px 10px;
+        animation: btn 1s 0s infinite linear ;
+        justify-content: center;
+    }
+    .btn-div button:nth-child(2)
+    {
+        width: 50%;
+        border-radius: 0px;
+        margin: 0px 10px;
+        animation: btn 1s 0s infinite linear ;
+        justify-content: center;
+    }
+}
 @media only screen and (min-width:768px) and (max-width:991.5px)
-{}
+{
+    .header-mid 
+    {
+        padding: 0px 40px;
+    }
+}
 @media only screen and (min-width:992px) and (max-width:1199.5px)
-{}
+{
+    .header-mid 
+    {
+        padding: 0px 40px;
+    }
+}
 @media only screen and (min-width:1200px) and (max-width:1399.5px)
 {}
 @media only screen and (min-width:1400px) 

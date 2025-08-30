@@ -721,3 +721,68 @@ header {
   color: white;
 }
 /* end */
+
+/* digital-marketing-section */
+.digital-marketing-section {
+  width: 100%;
+  background: #f7faff;
+}
+.digital-mid {
+  max-width: 1170px;
+  margin: auto;
+  padding: 50px 0px;
+}
+.digital-mid > h2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #0a2134;
+  margin-bottom: 20px;
+}
+.digital-mid > p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #0a2134;
+  margin-bottom: 20px;
+}
+.digital-menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.digital-item {
+  flex-basis: 32%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+  margin-bottom: 20px;
+}
+.digital-content {
+  margin-top: 20px;
+}
+.digital-content > h3 {
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #0a2134;
+  margin-bottom: 20px;
+}
+.digital-content > p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #0a2134;
+}
+/* end */

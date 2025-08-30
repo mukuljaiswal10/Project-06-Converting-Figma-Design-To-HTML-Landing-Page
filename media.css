@@ -233,6 +233,45 @@
     {
         flex-basis:100%;
     }
+    .student-mid
+    {
+        padding: 50px 20px;
+        margin-bottom: 50px;
+    }
+    .student-mid > h2
+    {
+        font-size: 32px;
+        text-align: center;
+    }
+    .student-mid > p
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+    .students-review-item 
+    {
+        flex-basis: 100%;
+    }
+    .student-banner-part-2
+    {
+        padding: 20px;
+    }
+    .student-banner-part-2 > h3
+    {
+        font-size: 32px;
+    }
+    .student-banner-part-2 > p
+    {
+        font-size:20px;
+    }
+    .student-banner-part-1
+    {
+        display: none;
+    }
+    .student-banner-part-3
+    {
+        display: none;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.8px)
 {
@@ -473,6 +512,45 @@
         flex-basis: 45%;
         margin: 2.5%;
     }
+    .student-mid
+    {
+        padding: 50px 20px;
+        margin-bottom: 50px;
+    }
+    .student-mid > h2
+    {
+        font-size: 32px;
+        text-align: center;
+    }
+    .student-mid > p
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+    .students-review-item 
+    {
+        flex-basis: 100%;
+    }
+    .student-banner-part-2
+    {
+        padding: 20px;
+    }
+    .student-banner-part-2 > h3
+    {
+        font-size: 32px;
+    }
+    .student-banner-part-2 > p
+    {
+        font-size:20px;
+    }
+    .student-banner-part-1
+    {
+        display: none;
+    }
+    .student-banner-part-3
+    {
+        display: none;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.8px)
 {
@@ -635,6 +713,23 @@
     .digital-mid
     {
         padding: 50px 20px;
+    }
+    .student-mid
+    {
+        padding: 50px 20px;
+        margin-bottom: 50px;
+    }
+    .student-banner-part-2 > h3
+    {
+        font-size:26px;
+    }
+    .student-banner-part-2 > p
+    {
+        font-size:13px;
+    }
+    .student-banner-part-2>button
+    {
+        padding: 10px 20px;
     }
 }
 @media only screen and (min-width:992px) and (max-width:1169.8px)

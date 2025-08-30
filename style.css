@@ -361,6 +361,9 @@ header
     max-width: 1170px;
     margin: auto;
     padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .keyhighlight-mid>h2 
 {
@@ -371,6 +374,7 @@ header
     letter-spacing: 0%;
     color: #0A2134;
     padding-bottom:20px;
+    width: 100%;
 }
 .keyhighlight-mid>p 
 {
@@ -380,6 +384,7 @@ header
     line-height: 27px;
     letter-spacing: 0%;
     color: #0A2134;
+    width: 100%;
 }
 .keyhighlight-menu
 {

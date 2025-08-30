@@ -180,6 +180,41 @@
     {
         display: block;
     }
+    .carriculam-mid
+    {
+        padding: 50px 20px;
+    }
+    .carriculam-mid > h2
+    {
+        font-size: 32px;
+        text-align: center;
+    }
+    .carriculam-mid > p
+    {
+        font-size:20px;
+        text-align: center;
+    }
+    .carriculam-menu
+    {
+        justify-content: center;
+    }
+    .carriculam-item
+    {
+        flex-basis: 40%;
+        margin:5%;
+    }
+    .carriculam-list-item 
+    {
+        flex-basis: 100%;
+    }
+    .carriculam-list-item > ul > li
+    {
+        margin-top: 15px;
+    }
+    .carriculam-list-item > ul > li > span
+    {
+        font-size: 18px;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.8px)
 {
@@ -366,6 +401,41 @@
     {
         display: block;
     }
+    .carriculam-mid
+    {
+        padding: 50px 20px;
+    }
+    .carriculam-mid > h2
+    {
+        font-size: 32px;
+        text-align: center;
+    }
+    .carriculam-mid > p
+    {
+        font-size:20px;
+        text-align: center;
+    }
+    .carriculam-menu
+    {
+        justify-content: center;
+    }
+    .carriculam-item
+    {
+        flex-basis: 30%;
+        margin:5%;
+    }
+    .carriculam-list-item 
+    {
+        flex-basis: 100%;
+    }
+    .carriculam-list-item > ul > li
+    {
+        margin-top: 15px;
+    }
+    .carriculam-list-item > ul > li > span
+    {
+        font-size: 18px;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.8px)
 {
@@ -501,6 +571,30 @@
     {
         display: block;
     }
+    .carriculam-mid
+    {
+        padding: 50px 20px;
+    }
+    .carriculam-item
+    {
+        flex-basis: 12%;
+    }
+    .carriculam-item > h3
+    {
+        font-size: 12px;
+    }
+    .highLight
+    {
+        padding: 10px 20px;
+    }
+    .highLight-2 > h3
+    {
+        font-size: 14px;
+    }
+    .carriculam-list-item > ul > li > span
+    {
+        font-size: 18px;
+    }
 }
 @media only screen and (min-width:992px) and (max-width:1169.8px)
 {
@@ -583,6 +677,26 @@
         width: 350px;
         height:500px;
    }
+   .carriculam-mid
+    {
+        padding: 50px 20px;
+    }
+    .carriculam-item > h3
+    {
+        font-size: 16px;
+    }
+    .highLight
+    {
+        padding: 10px 20px;
+    }
+    .highLight-2 > h3
+    {
+        font-size: 16px;
+    }
+    .carriculam-list-item > ul > li > span
+    {
+        font-size:20px;
+    }
 }
 @media only screen and (min-width:1170px) and (max-width:1399.5px)
 {

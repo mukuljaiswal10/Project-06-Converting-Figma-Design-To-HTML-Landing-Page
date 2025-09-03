@@ -1022,4 +1022,27 @@ header {
   letter-spacing: 0%;
   color: #0a2134;
 }
+.faq-button {
+  max-width: 770px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top:50px;
+}
+.faq-button > button {
+  border-radius: 8px;
+  background: linear-gradient(93.77deg, #0acefe -6.36%, #2699fb 50.16%);
+  border-image-source: linear-gradient(
+    93.77deg,
+    #0acefe -6.36%,
+    #2699fb 50.16%
+  );
+  box-shadow: 0px 1px 2px 0px #1018280d, 0px 4px 14px 2px #2699fb61;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding: 16px 48px;
+}
 /* end */

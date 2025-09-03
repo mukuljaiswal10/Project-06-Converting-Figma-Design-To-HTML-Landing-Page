@@ -922,9 +922,8 @@ header {
   color: #ffffff;
   margin-bottom: 20px;
 }
-.student-banner-part-2>button
-{
-    margin-top: 30px;
+.student-banner-part-2 > button {
+  margin-top: 30px;
 }
 .student-banner-part-2 > button {
   padding: 16px 48px;
@@ -937,5 +936,90 @@ header {
   letter-spacing: 0%;
   color: #0a2134;
   border: none;
+}
+/* end */
+
+/* faq-section */
+.faq-section {
+  width: 100%;
+  background-color: #f7faff;
+}
+.faq-mid {
+  max-width: 1170px;
+  margin: auto;
+  padding: 50px 20px;
+}
+.faq-mid > h2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 44px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #0a2134;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.faq-mid > p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #0a2134;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.faq-items {
+  max-width: 770px;
+  margin: auto;
+  margin-top: 50px;
+}
+.faq-ques-ans {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid;
+  border: 1px solid #2699fb;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+}
+.faq-ques-ans > h3 {
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #2699fb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.faq-ques-ans > p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #0a2134;
+}
+.faq-ques {
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #f2f4f7;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+  margin-top: 20px;
+  padding: 20px;
+}
+.faq-ques > h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #0a2134;
 }
 /* end */

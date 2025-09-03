@@ -251,6 +251,7 @@
     .students-review-item 
     {
         flex-basis: 100%;
+        margin-bottom: 20px;
     }
     .student-banner-part-2
     {
@@ -271,6 +272,32 @@
     .student-banner-part-3
     {
         display: none;
+    }
+    .faq-mid
+    {
+        padding: 50px 20px;
+    }
+    .faq-mid>h2 
+    {
+        font-size: 28px;
+        text-align: center;
+    }
+    .faq-mid>p 
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+    .faq-ques-ans > h3
+    {
+        font-size:16px;
+    }
+    .faq-ques-ans > p
+    {
+        font-size:15px;
+    }
+    .faq-ques > h3
+    {
+        font-size: 16px;
     }
 }
 @media only screen and (min-width:481px) and (max-width:767.8px)
@@ -530,6 +557,7 @@
     .students-review-item 
     {
         flex-basis: 100%;
+        margin-bottom: 20px;
     }
     .student-banner-part-2
     {
@@ -550,6 +578,32 @@
     .student-banner-part-3
     {
         display: none;
+    }
+    .faq-mid
+    {
+        padding: 50px 20px;
+    }
+    .faq-mid>h2 
+    {
+        font-size: 28px;
+        text-align: center;
+    }
+    .faq-mid>p 
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+    .faq-ques-ans > h3
+    {
+        font-size:16px;
+    }
+    .faq-ques-ans > p
+    {
+        font-size:15px;
+    }
+    .faq-ques > h3
+    {
+        font-size: 16px;
     }
 }
 @media only screen and (min-width:768px) and (max-width:991.8px)

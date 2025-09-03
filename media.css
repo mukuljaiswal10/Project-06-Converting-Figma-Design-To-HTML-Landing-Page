@@ -312,6 +312,10 @@
     {
         margin-top: 20px;
     }
+    .footer-mid-2 
+    {
+        padding-bottom:80px;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.8px)
 {
@@ -630,6 +634,10 @@
     .company-img
     {
         margin-top: 20px;
+    }
+    .footer-mid-2 
+    {
+        padding-bottom:80px;
     }
 }
 @media only screen and (min-width:768px) and (max-width:991.8px)

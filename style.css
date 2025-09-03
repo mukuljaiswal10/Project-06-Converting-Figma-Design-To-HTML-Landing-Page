@@ -1066,14 +1066,67 @@ header {
   text-align: center;
   color: #0a2134;
 }
-.company-img
-{
+.company-img {
   max-width: 1116px;
   margin: auto;
   margin-top: 50px;
 }
-.company-img img 
-{
+.company-img img {
   width: 100%;
+}
+/* end */
+
+/* footer-section */
+.footer-section {
+  width: 100%;
+  background: #0a2540;
+}
+.footer-mid {
+  max-width: 630px;
+  padding: 50px 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-content {
+  margin-top: 30px;
+}
+.footer-content > p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+.border-line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #ffffff;
+}
+.footer-mid-2 {
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  padding:25px 0px;
+}
+.footer-mid-2 > p > a {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: underline;
 }
 /* end */

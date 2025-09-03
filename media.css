@@ -299,6 +299,19 @@
     {
         font-size: 16px;
     }
+    .company-mid
+    {
+        padding: 50px 20px;
+    }
+    .company-mid > h2
+    {
+        font-size: 28px;
+        text-align: center;
+    }
+    .company-img
+    {
+        margin-top: 20px;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.8px)
 {
@@ -605,6 +618,19 @@
     {
         font-size: 16px;
     }
+    .company-mid
+    {
+        padding: 50px 20px;
+    }
+    .company-mid > h2
+    {
+        font-size: 28px;
+        text-align: center;
+    }
+    .company-img
+    {
+        margin-top: 20px;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.8px)
 {
@@ -784,6 +810,11 @@
     .student-banner-part-2>button
     {
         padding: 10px 20px;
+    }
+    .company-mid > h2
+    {
+        font-size: 28px;
+        text-align: center;
     }
 }
 @media only screen and (min-width:992px) and (max-width:1169.8px)

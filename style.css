@@ -1027,7 +1027,7 @@ header {
   margin: auto;
   display: flex;
   justify-content: center;
-  margin-top:50px;
+  margin-top: 50px;
 }
 .faq-button > button {
   border-radius: 8px;
@@ -1044,5 +1044,36 @@ header {
   letter-spacing: 0%;
   color: #ffffff;
   padding: 16px 48px;
+}
+/* end */
+
+/* company-section */
+.company-section {
+  width: 100%;
+  background-color: white;
+}
+.company-mid {
+  max-width: 1170px;
+  margin: auto;
+  padding: 50px 20px;
+}
+.company-mid > h2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #0a2134;
+}
+.company-img
+{
+  max-width: 1116px;
+  margin: auto;
+  margin-top: 50px;
+}
+.company-img img 
+{
+  width: 100%;
 }
 /* end */
